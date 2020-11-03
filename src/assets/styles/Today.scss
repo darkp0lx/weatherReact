@@ -1,0 +1,14 @@
+.Today{
+  margin: 2em;
+  padding: 2em;
+  .item{
+    width: 100%;
+    margin-top: 2em;
+    background-color: #1E213A;
+    border-radius: 2em;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,35 @@
+.weekDate {
+  margin-top: 35vh;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E213A;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 2em;
+  }
+
+  .time-text {
+    display: grid;
+    place-items: center;
+    width: 100%;
+
+  }
+
+  .logo_time {
+    width: 50%;
+  }
+
+  .time {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      font-size: .5em;
+    }
+  }
+}

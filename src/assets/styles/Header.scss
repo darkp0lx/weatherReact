@@ -1,0 +1,46 @@
+.Header {
+  position: relative;
+  margin: 2em;
+  display: grid;
+  place-items: center;
+
+  input {
+    border-radius: 1em;
+    outline: none;
+    padding: 1em 2em;
+    border: none;
+  }
+  .info{
+    position: relative;
+    display: grid;
+    place-items: center;
+    h1{
+      font-size: 4em;
+    }
+    
+    .container{
+      position: absolute;
+      top: -25vh;
+    }
+  }
+
+  .Header__body {
+    position: absolute;
+    bottom: -70%;
+    margin-bottom: 30px;
+
+    .tittle {
+      display: flex;
+      align-items: center;
+    }
+
+    .weather h2 {
+      margin: 0;
+    }
+
+    .grades {
+      font-size: 6em;
+      margin: 0;
+    }
+  }
+}
